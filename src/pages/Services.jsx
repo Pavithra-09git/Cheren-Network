@@ -69,7 +69,7 @@ function Services() {
     <>
       <section className="py-5">
         <div className="container">
-          <div className="row mb-4">
+          <div className="row mb-4 animate-fade-up">
             <div className="col-lg-8">
               <h1 className="fw-bold mb-3">Our Services</h1>
               <p className="text-light-50 mb-0">
@@ -80,7 +80,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row animate-fade-up delay-1">
             {detailedServices.map((service) => (
               <ServiceCard
                 key={service.title}

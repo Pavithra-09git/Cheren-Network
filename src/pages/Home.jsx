@@ -81,7 +81,7 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="row align-items-center g-5">
-            <div className="col-lg-6">
+            <div className="col-lg-6 animate-fade-up">
               <div className="hero-badge mb-3">
                 <i className="fa-solid fa-circle-check"></i>
                 <span>Trusted IT Infrastructure Partner</span>
@@ -112,7 +112,7 @@ function Home() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-center">
+            <div className="col-lg-6 d-flex justify-content-center animate-fade-in delay-1">
               <div className="hero-blob position-relative">
                 <div className="position-absolute top-50 start-50 translate-middle text-center text-dark">
                   <div className="bg-white bg-opacity-80 rounded-4 p-3 shadow">
@@ -130,7 +130,7 @@ function Home() {
           </div>
 
           {/* Trusted Brands */}
-          <div className="row mt-5">
+          <div className="row mt-5 animate-fade-up delay-2">
             <div className="col-12">
               <div className="brand-strip px-3 py-2 d-flex flex-wrap align-items-center justify-content-between gap-2">
                 <span className="small text-secondary text-uppercase fw-semibold">
@@ -153,7 +153,7 @@ function Home() {
       {/* Services Overview */}
       <section className="py-5">
         <div className="container">
-          <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4">
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4 animate-fade-up">
             <div>
               <h2 className="fw-bold mb-2">What We Offer</h2>
               <p className="text-light-50 mb-0">

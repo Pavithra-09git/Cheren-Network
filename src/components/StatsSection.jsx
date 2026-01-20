@@ -18,7 +18,7 @@ function StatsSection() {
   ];
 
   return (
-    <section className="py-5 stats-section">
+    <section className="py-5 stats-section animate-fade-up">
       <div className="container">
         <div className="row g-4 justify-content-center text-center">
           {stats.map((stat) => (

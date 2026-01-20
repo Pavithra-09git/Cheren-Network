@@ -13,7 +13,7 @@ function Contact() {
   return (
     <section className="py-5 contact-page">
       <div className="container">
-        <div className="row mb-4 align-items-end g-3">
+        <div className="row mb-4 align-items-end g-3 animate-fade-up">
           <div className="col-lg-7">
             <div className="hero-badge mb-3">
               <i className="fa-solid fa-headset"></i>
@@ -44,10 +44,10 @@ function Contact() {
         </div>
 
         <div className="row g-4">
-          <div className="col-lg-7" id="enquiry-form">
+          <div className="col-lg-7 animate-fade-up delay-1" id="enquiry-form">
             <ContactForm />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 animate-fade-up delay-2">
             <div className="card border-0 shadow-sm mb-4 contact-info-card">
               <div className="card-body">
                 <h5 className="fw-semibold mb-3">Business Contact Info</h5>

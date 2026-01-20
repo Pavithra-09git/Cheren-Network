@@ -5,7 +5,7 @@ function About() {
     <section className="about-hero py-5">
       <div className="container">
         <div className="row g-4 align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 animate-fade-up">
             <div className="mb-3">
               <span className="hero-badge">
                 <i className="fa-solid fa-shield-halved"></i> Trusted IT Partner
@@ -48,7 +48,7 @@ function About() {
             </div>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-6 animate-fade-in delay-1">
             <img
               src={aboutNetworkIllustration}
               alt="Network infrastructure illustration"
@@ -58,7 +58,7 @@ function About() {
           </div>
         </div>
 
-        <div className="row g-4 mt-4">
+        <div className="row g-4 mt-4 animate-fade-up delay-2">
           <div className="col-lg-4">
             <div className="about-feature p-4 h-100">
               <div className="d-flex align-items-center gap-2 mb-2">
