@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="CCTV illustration">
+  <defs>
+    <linearGradient id="scctv-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" rx="32" fill="url(#scctv-bg)"/>
+  <rect x="200" y="170" width="260" height="90" rx="18" fill="#020617" stroke="#1f2937" stroke-width="4"/>
+  <rect x="220" y="185" width="220" height="60" rx="14" fill="#0b1120"/>
+  <circle cx="420" cy="215" r="20" fill="#0b1120" stroke="#38bdf8" stroke-width="4"/>
+  <circle cx="420" cy="215" r="10" fill="#38bdf8"/>
+  <rect x="320" y="250" width="40" height="110" rx="8" fill="#020617" stroke="#1f2937" stroke-width="3"/>
+  <rect x="200" y="320" width="140" height="24" rx="12" fill="#020617" stroke="#1f2937" stroke-width="3"/>
+</svg>
+
+

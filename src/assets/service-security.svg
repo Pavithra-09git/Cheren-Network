@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Security illustration">
+  <defs>
+    <linearGradient id="ssec-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" rx="32" fill="url(#ssec-bg)"/>
+  <path d="M260 140 L400 140 L420 220 C400 290 340 330 330 335 C320 330 260 290 240 220 Z" fill="#020617" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="330" cy="220" r="50" fill="#0b1120"/>
+  <circle cx="330" cy="220" r="26" fill="#22c55e"/>
+  <path d="M330 203v22" stroke="#052e16" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="330" cy="196" r="5" fill="#052e16"/>
+</svg>
+
+

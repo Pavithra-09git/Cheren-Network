@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Network infrastructure illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#93c5fd" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <circle cx="340" cy="220" r="280" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="980" cy="640" r="260" fill="url(#glow)" filter="url(#soft)" opacity="0.6"/>
+
+  <!-- Lines -->
+  <g stroke="#bfdbfe" stroke-opacity="0.55" stroke-width="5" fill="none">
+    <path d="M260 460 C 360 360, 420 330, 520 280"/>
+    <path d="M260 460 C 410 520, 560 560, 720 520"/>
+    <path d="M520 280 C 650 240, 760 250, 880 320"/>
+    <path d="M720 520 C 820 520, 910 520, 1020 460"/>
+    <path d="M880 320 C 980 370, 1020 410, 1020 460"/>
+  </g>
+
+  <!-- Nodes -->
+  <g>
+    <g transform="translate(240 440)">
+      <circle cx="0" cy="0" r="44" fill="#0b1120" stroke="#60a5fa" stroke-width="6"/>
+      <circle cx="0" cy="0" r="10" fill="#60a5fa"/>
+    </g>
+    <g transform="translate(520 280)">
+      <circle cx="0" cy="0" r="44" fill="#0b1120" stroke="#93c5fd" stroke-width="6"/>
+      <circle cx="0" cy="0" r="10" fill="#93c5fd"/>
+    </g>
+    <g transform="translate(720 520)">
+      <circle cx="0" cy="0" r="44" fill="#0b1120" stroke="#60a5fa" stroke-width="6"/>
+      <circle cx="0" cy="0" r="10" fill="#60a5fa"/>
+    </g>
+    <g transform="translate(880 320)">
+      <circle cx="0" cy="0" r="44" fill="#0b1120" stroke="#93c5fd" stroke-width="6"/>
+      <circle cx="0" cy="0" r="10" fill="#93c5fd"/>
+    </g>
+    <g transform="translate(1020 460)">
+      <circle cx="0" cy="0" r="44" fill="#0b1120" stroke="#60a5fa" stroke-width="6"/>
+      <circle cx="0" cy="0" r="10" fill="#60a5fa"/>
+    </g>
+  </g>
+
+  <!-- Mini cards -->
+  <g fill="#0b1120" stroke="#1f2937" stroke-width="2">
+    <rect x="120" y="90" width="260" height="110" rx="18" fill-opacity="0.85"/>
+    <rect x="820" y="90" width="260" height="110" rx="18" fill-opacity="0.85"/>
+    <rect x="820" y="620" width="260" height="110" rx="18" fill-opacity="0.85"/>
+  </g>
+
+  <!-- Text -->
+  <g font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif" fill="#e5e7eb">
+    <text x="150" y="140" font-size="22" font-weight="700">Secure Networks</text>
+    <text x="150" y="172" font-size="16" fill="#cbd5e1">Design • Deploy • Support</text>
+
+    <text x="850" y="140" font-size="22" font-weight="700">IT Infrastructure</text>
+    <text x="850" y="172" font-size="16" fill="#cbd5e1">Servers • Wi‑Fi • CCTV</text>
+
+    <text x="850" y="670" font-size="22" font-weight="700">Reliable Uptime</text>
+    <text x="850" y="702" font-size="16" fill="#cbd5e1">Monitoring • Maintenance</text>
+  </g>
+</svg>
+
